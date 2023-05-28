@@ -3,10 +3,12 @@ by Oleh Kravets
 
 ### Project Description
 
-Wine choice will give you description of wine depends on your preferences
+Describes characters for Game of Thrones
 
 
 ### API Description
+
+https://anapioficeandfire.com/api/characters/583
 
 example code
 '''css
@@ -14,7 +16,7 @@ example code
 
 ### Mockup
 
-![wine](https://i.imgur.com/cIZl5Zl.png)
+![GoT](https://i.imgur.com/cIZl5Zl.png)
 
 ### Details difficulties
 
