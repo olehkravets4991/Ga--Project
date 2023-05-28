@@ -1,4 +1,24 @@
 * {
     box-sizing: border-box;
-    outline: 2px solid gold;
+}
+
+#h1 {
+    position: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#Search{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+#Result {
+    background-color: aquamarine;
+    height: 800px;
+    width: 600px;
 }
