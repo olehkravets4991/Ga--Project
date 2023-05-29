@@ -1,24 +1,24 @@
-* {
-    box-sizing: border-box;
-}
 
-#h1 {
-    position: center;
+h1 {
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #container {
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
     
 }
 
-#Search{
-    background-color: yellow;
-    height: 200px;
-    width: 200px;
-}
 #Result {
     background-color: aquamarine;
-    height: 800px;
-    width: 600px;
+    height: 500px;
+    width: 400px;
 }
