@@ -10,7 +10,7 @@ $searchForm.on("submit", event => {
     const formData = new FormData(event.target);
 
     //get the value from the generated data where the name value is "character" (on the form)
-    const pokemon = formData.get("character").toLowerCase();
+    const character = formData.get("character").toLowerCase();
 
     const url = `https://anapioficeandfire.com/api/characters/583${character}`
 
