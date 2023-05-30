@@ -12,7 +12,7 @@ $searchForm.on("submit", event => {
     //get the value from the generated data where the name value is "character" (on the form)
     const character = formData.get("character").toLowerCase();
 
-    const url = `https://anapioficeandfire.com/api/characters/583${character}`
+    const url = `https://anapioficeandfire.com/api/characters/${character}`
 
     
     
